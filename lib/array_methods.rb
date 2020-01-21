@@ -9,8 +9,11 @@ end
 
 def find_max_value(array)
   max = 
-  while |index|
-  array[index]
+  while max < array.length do |index|
+    if max < array[index]
+      max = array[index]
+    end
+  end
 end
 
 def find_min_value(array)
