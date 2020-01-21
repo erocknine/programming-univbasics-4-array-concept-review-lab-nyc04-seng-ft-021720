@@ -9,12 +9,10 @@ end
 
 def find_max_value(array)
   max = array[0]
-  counter = 0
-  while counter < array.length do |index|
+  array.length.times do |index|
     if max < array[index]
       max = array[index]
     end
-    counter +=1
   end
   return max
 end
