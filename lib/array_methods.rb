@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = 
+  max = array[0]
   while max < array.length do |index|
     if max < array[index]
       max = array[index]
